@@ -1,0 +1,59 @@
+App running on port 3000!
+inside of .each
+just before db.Article.find { title: '              U.S. says crossing is full before caravan tries to seek asylum',
+  summary: 'A group of Central Americans who journeyed to the U.S. border in a caravan resolved to turn themselves in and ask for asylum Sunday — only to have U.S. immigration officials announce that the San Diego crossing was already at capacity and wouldn\'t immediately be accepting them.',
+  section: 'Nation & WorldNation & WorldBreaking NewsNation & WorldChicago BearsBreaking NewsBreaking NewsBreaking NewsMoviesChicago BearsParentingDream HomesMovies',
+  articleLink: 'http://www.chicagotribune.com/news/nationworld/#nt=oft02a-1la1',
+  articleImageLink: 'http://www.trbimg.com/img-5ae64431/turbine/ct-central-american-migrants-seek-asylum-20180429',
+  articleImageAlt: 'Central American migrants seek asylum',
+  articleImageTitle: 'Central American migrants seek asylum' }
+inside of .each
+just before db.Article.find { title: '              Sullivan: Cubs pitchers are hot; now it\'s time for the hitters ... and the weather',
+  summary: 'The Cubs swept the Brewers, allowing a total of two runs -- just one earned -- while throwing three shutouts in the four-game series.',
+  section: 'Chicago Cubs',
+  articleLink: 'http://www.chicagotribune.com/sports/baseball/cubs/#nt=oft06a-2la1',
+  articleImageLink: 'http://www.trbimg.com/img-5ae64eca/turbine/ct-spt-cubs-brewers-20180429',
+  articleImageAlt: 'Cubs pitchers are hot; now it\'s time for the hitters ... and the weather',
+  articleImageTitle: 'Cubs pitchers are hot; now it\'s time for the hitters ... and the weather' }
+inside of .each
+just before db.Article.find { title: '              Golden State Killer case was cold for years. Oak Park native Michelle McNamara kept the story alive.',
+  summary: 'Family and friends remember Oak Park native and true crime author Michelle McNamara after news that a suspect in the Golden State Killer case has been arrested.',
+  section: 'Life & Style',
+  articleLink: 'http://www.chicagotribune.com/lifestyles/#nt=oft06a-3la1',
+  articleImageLink: 'http://www.trbimg.com/img-5ae5c28c/turbine/ct-life-michelle-mcnamara-20180426',
+  articleImageAlt: 'Golden State Killer case was cold for years. Oak Park native Michelle McNamara kept the story alive.',
+  articleImageTitle: 'Golden State Killer case was cold for years. Oak Park native Michelle McNamara kept the story alive.' }
+inside of .each
+inside of .each
+inside of .each
+just before db.Article.find { title: '              Academic bowls, standardized tests? Done that. These West Chicago High School students focus on ‘life smarts’',
+  summary: 'In a world of spelling bees and academic quiz bowls that test students’ book smarts, one competition focuses on something purely practical — consumer skills.',
+  section: 'Life & Style',
+  articleLink: 'http://www.chicagotribune.com/lifestyles/#nt=oft03a-7la1',
+  articleImageLink: 'http://www.trbimg.com/img-5ade2d04/turbine/ct-1524509952-o5xc0xd61n-snap-image',
+  articleImageAlt: 'The LifeSmarts Illinois team',
+  articleImageTitle: 'The LifeSmarts Illinois team' }
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+[0mGET /scrape [36m304 [0m1890.366 ms - -[0m
+inside article find
+undefined
+inside article =[]
+{ title: '              U.S. says crossing is full before caravan tries to seek asylum',
+  summary: 'A group of Central Americans who journeyed to the U.S. border in a caravan resolved to turn themselves in and ask for asylum Sunday — only to have U.S. immigration officials announce that the San Diego crossing was already at capacity and wouldn\'t immediately be accepting them.',
+  section: 'Nation & WorldNation & WorldBreaking NewsNation & WorldChicago BearsBreaking NewsBreaking NewsBreaking NewsMoviesChicago BearsParentingDream HomesMovies',
+  articleLink: 'http://www.chicagotribune.com/news/nationworld/#nt=oft02a-1la1',
+  articleImageLink: 'http://www.trbimg.com/img-5ae64431/turbine/ct-central-american-migrants-seek-asylum-20180429',
+  articleImageAlt: 'Central American migrants seek asylum',
+  articleImageTitle: 'Central American migrants seek asylum' }
