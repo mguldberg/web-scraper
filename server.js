@@ -2,6 +2,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var logger = require("morgan");
 var mongoose = require("mongoose");
+var exphbs = require("express-handlebars");
 
 // Our scraping tools
 // Axios is a promised-based http library, similar to jQuery's Ajax method
@@ -26,10 +27,38 @@ app.use(bodyParser.urlencoded({ extended: true }));
 // Use express.static to serve the public folder as a static directory
 app.use(express.static("public"));
 
-// Connect to the Mongo DB
+//Use handlebars with a layout file of "main"
+app.engine("handlebars", exphbs({ defaultLayout: "main" }));
+app.set("view engine", "handlebars");
+
+// // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
+// var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/web-scraper";
+
+// // Connect to the Mongo DB
+// mongoose.connect(MONGODB_URI);
 mongoose.connect("mongodb://localhost/web-scraper");
 
 // Routes
+app.get("/", function (req, res) {
+
+  db.Article.find({})
+    .then(function (dbArticle) {
+      // If all Notes are successfully found, send them back to the client
+      var hbsObject = {
+        articles_data: dbArticle,
+      };
+
+      res.render("saved-not-saved", hbsObject);
+
+    })
+    .catch(function (err) {
+      console.log("in article find .catch");
+
+      // If an error occurs, send the error back to the client
+      res.json(err);
+    });
+
+});
 
 // A GET route for scraping the echoJS website
 app.get("/scrape", function (req, res) {
@@ -41,6 +70,9 @@ app.get("/scrape", function (req, res) {
   axios.get(urlToScrape).then(function (response) {
     // Then, we load that into cheerio and save it to $ for a shorthand selector
     var $ = cheerio.load(response.data);
+
+    //keep count of new records
+    var countNewRecords = 0;
 
     // Now, we grab every 'article' within an article tag, and do the following:
     $("section.trb_outfit_sections").each(function (i, element) {
@@ -77,33 +109,22 @@ app.get("/scrape", function (req, res) {
           .attr("title");
 
         console.log("just before db.Article.find", result)
-        // If query IS passed into .find(), filters by the query parameters
-        db.Article.find({ title: result.title }, (err, articleFound) => {
-          if (err)
-            console.log()
-          // return res.status(500).send(err);
-          console.log("inside article find");
-          console.log(articleFound[0]);
 
-          if (articleFound[0] == undefined) {
+        // Create a new Article using the `result` object built from scraping
+        db.Article.create(result)
+          .then(function (dbArticle) {
+            // View the added result in the console
+            console.log(dbArticle);
 
-            console.log("inside article =[]");
-            console.log(result);
-
-            // Create a new Article using the `result` object built from scraping
-            db.Article.create(result)
-              .then(function (dbArticle) {
-                // View the added result in the console
-                console.log(dbArticle);
-              })
-              .catch(function (err) {
-                // If an error occurred, send it to the client
-                return res.json(err);
-              });
-          }
-        });
+            //keep count of records added
+            countNewRecords++;
+          })
+          .catch(function (err) {
+            console.log("in create .catch");
+            // If an error occurred, console.log to server.
+            console.log(err);
+          });
       }
-
     });
 
     // Now, we grab every '.trb_outfit_group_list_item' within an article tag, and do the following:
@@ -139,30 +160,29 @@ app.get("/scrape", function (req, res) {
           .find("img")
           .attr("title");
 
-        // If query IS passed into .find(), filters by the query parameters
-        db.Article.find({ title: result.title }, (err, articleFound) => {
-          if (err)
-            // return res.status(500).send(err);
-            if (articleFound[0] == undefined) {
 
-              console.log(articleFound[0]);
 
-              // Create a new Article using the `result` object built from scraping
-              db.Article.create(result)
-                .then(function (dbArticle) {
-                  // View the added result in the console
-                  console.log(dbArticle);
-                })
-                .catch(function (err) {
-                  // If an error occurred, send it to the client
-                  return res.json(err);
-                });
-            }
-        });
+        // Create a new Article using the `result` object built from scraping
+        db.Article.create(result)
+          .then(function (dbArticle) {
+            // View the added result in the console
+            console.log(dbArticle);
+
+            //keep count of records added
+            countNewRecords++;
+          })
+          .catch(function (err) {
+            console.log("in .each create catch");
+            // If an error occurred, send it to the client
+            console.log(err)
+          });
+
+
       }
     });
+    
     // If we were able to successfully scrape and save an Article, send a message to the client
-    res.send("Scrape Complete");
+    res.send("Scrape Complete. \n"+ countNewRecords+ " records have been added to the DB." );
   });
 });
 
@@ -183,19 +203,23 @@ app.get("/articles", function (req, res) {
 
 // Route for grabbing a specific Article by id, populate it with it's note
 app.get("/articles/:id", function (req, res) {
+  console.log("params ID");
+  console.log(req.params.id);
   // TODO
   // ====
   // Finish the route so it finds one article using the req.params.id,
   // and run the populate method with "note",
   // then responds with the article with the note included
-  db.Article.find({ _id: req.params.id })
+  db.Article.findOne({ _id: req.params.id })
     // Specify that we want to populate the retrieved Articles with any notes
     .populate("note")
     .then(function (dbUserNotes) {
       // If any Articles are found, send them to the client with any notes
+      console.log(dbUserNotes)
       res.json(dbUserNotes);
     })
     .catch(function (err) {
+      console.log(err)
       // If an error occurs, send it back to the client
       res.json(err);
     });
@@ -249,7 +273,7 @@ app.delete("/notes/:id", function (req, res) {
       // Since our mongoose query returns a promise, we can chain another `.then` which receives the result of the query
       console.log("dbNote:", dbNote);
       console.log("req.params", req.params)
-      return db.Article.findOneAndRemove({ _id: req.body.id }, { $pull: { note: req.params.id } }, { new: true });
+      return db.Article.findOneAndRemove({ _id: req.body.id }, { $pull: { note: req.params.id } });
     })
     .then(function (dbNote) {
       // If the User was updated successfully, send it back to the client
