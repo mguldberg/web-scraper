@@ -1,44 +1,44 @@
 App running on port 3000!
+sum of lengths
+88
 inside of .each
-just before db.Article.find { title: '              U.S. says crossing is full before caravan tries to seek asylum',
-  summary: 'A group of Central Americans who journeyed to the U.S. border in a caravan resolved to turn themselves in and ask for asylum Sunday — only to have U.S. immigration officials announce that the San Diego crossing was already at capacity and wouldn\'t immediately be accepting them.',
-  section: 'Nation & WorldNation & WorldBreaking NewsNation & WorldChicago BearsBreaking NewsBreaking NewsBreaking NewsMoviesChicago BearsParentingDream HomesMovies',
-  articleLink: 'http://www.chicagotribune.com/news/nationworld/#nt=oft02a-1la1',
-  articleImageLink: 'http://www.trbimg.com/img-5ae64431/turbine/ct-central-american-migrants-seek-asylum-20180429',
-  articleImageAlt: 'Central American migrants seek asylum',
-  articleImageTitle: 'Central American migrants seek asylum' }
+just before db.Article.find { title: '              EPA chief Pruitt overrules agency staff, gives Wisconsin\'s Walker, Foxconn big break on smog',
+  summary: 'The Trump administration on Tuesday exempted most of southeast Wisconsin from the latest federal limits on lung-damaging smog pollution, delivering a political victory to Gov. Scott Walker as he makes a new Foxconn Technology Group factory the centerpiece of his re-election campaign.',
+  section: 'Breaking NewsMidwestBreaking NewsFood & DiningMidwestClout StreetBreaking NewsCollege SportsBreaking NewsMidwestDream HomesArts & EntertainmentChicago BearsFood Focus',
+  articleLink: 'http://www.chicagotribune.com/news/local/breaking/#nt=oft02a-1la1',
+  articleImageLink: 'http://www.trbimg.com/img-5ae9116d/turbine/ct-1525223785-aepew5luek-snap-image',
+  articleImageAlt: 'Future Foxconn home',
+  articleImageTitle: 'Future Foxconn home' }
+loopCounter 1
 inside of .each
-just before db.Article.find { title: '              Sullivan: Cubs pitchers are hot; now it\'s time for the hitters ... and the weather',
-  summary: 'The Cubs swept the Brewers, allowing a total of two runs -- just one earned -- while throwing three shutouts in the four-game series.',
-  section: 'Chicago Cubs',
-  articleLink: 'http://www.chicagotribune.com/sports/baseball/cubs/#nt=oft06a-2la1',
-  articleImageLink: 'http://www.trbimg.com/img-5ae64eca/turbine/ct-spt-cubs-brewers-20180429',
-  articleImageAlt: 'Cubs pitchers are hot; now it\'s time for the hitters ... and the weather',
-  articleImageTitle: 'Cubs pitchers are hot; now it\'s time for the hitters ... and the weather' }
+just before db.Article.find { title: '              Are we in for another round of \'dirty rain\'? Wind, rain, dry conditions contribute to tricky weather',
+  summary: 'Rain is the Chicago area forecast for Wednesday night and Thursday night. “That means my car is going straight in the garage,” Melanie Douglas, of Chicago, said at Car Wash 954 in Elmhurst, “and my husband’s will be outside and he’ll have to pay for the next car wash.”',
+  section: 'Breaking News',
+  articleLink: 'http://www.chicagotribune.com/news/local/breaking/#nt=oft06a-2la1',
+  articleImageLink: 'http://www.trbimg.com/img-5ae90c0d/turbine/ct-met-watching-for-dirty-rain-20180501',
+  articleImageAlt: 'Are we in for another round of \'dirty rain\'? Wind, rain, dry conditions contribute to tricky weather',
+  articleImageTitle: 'Are we in for another round of \'dirty rain\'? Wind, rain, dry conditions contribute to tricky weather' }
+loopCounter 2
 inside of .each
-just before db.Article.find { title: '              Golden State Killer case was cold for years. Oak Park native Michelle McNamara kept the story alive.',
-  summary: 'Family and friends remember Oak Park native and true crime author Michelle McNamara after news that a suspect in the Golden State Killer case has been arrested.',
+just before db.Article.find { title: '              Secret Chicago: 40 hidden gems, from cafes to swimming pools',
+  summary: 'You could read a dozen tour books or walk a thousand miles of the Chicago grid and still miss some of the city’s best-kept secrets. So we’ve decided to spill a few. From secret gardens to exclusive dinner clubs, these gems are as old as Al Capone’s barbershop and as modern as ... a salt cave spa?',
   section: 'Life & Style',
   articleLink: 'http://www.chicagotribune.com/lifestyles/#nt=oft06a-3la1',
-  articleImageLink: 'http://www.trbimg.com/img-5ae5c28c/turbine/ct-life-michelle-mcnamara-20180426',
-  articleImageAlt: 'Golden State Killer case was cold for years. Oak Park native Michelle McNamara kept the story alive.',
-  articleImageTitle: 'Golden State Killer case was cold for years. Oak Park native Michelle McNamara kept the story alive.' }
+  articleImageLink: 'http://www.trbimg.com/img-5ae9b6d4/turbine/ct-booklet-secret-chicago-top-40',
+  articleImageAlt: 'Secret Chicago: 40 hidden gems, from cafes to swimming pools',
+  articleImageTitle: 'Secret Chicago: 40 hidden gems, from cafes to swimming pools' }
+loopCounter 3
 inside of .each
 inside of .each
 inside of .each
-just before db.Article.find { title: '              Academic bowls, standardized tests? Done that. These West Chicago High School students focus on ‘life smarts’',
-  summary: 'In a world of spelling bees and academic quiz bowls that test students’ book smarts, one competition focuses on something purely practical — consumer skills.',
-  section: 'Life & Style',
-  articleLink: 'http://www.chicagotribune.com/lifestyles/#nt=oft03a-7la1',
-  articleImageLink: 'http://www.trbimg.com/img-5ade2d04/turbine/ct-1524509952-o5xc0xd61n-snap-image',
-  articleImageAlt: 'The LifeSmarts Illinois team',
-  articleImageTitle: 'The LifeSmarts Illinois team' }
-inside of .each
-inside of .each
-inside of .each
-inside of .each
-inside of .each
-inside of .each
+just before db.Article.find { title: '              Flaming Lips, Black Star (yes, them), Brandi Carlile headline an action-packed Taste of Chicago music lineup',
+  summary: 'Um … the Taste of Chicago crowd might not be quite ready for this as it strives to eat its way across Grant Park, but there is yet another great music lineup as the Taste has become an impressive mini music fest. Tasteapalooza?',
+  section: 'Music',
+  articleLink: 'http://www.chicagotribune.com/entertainment/music/#nt=oft03a-7la1',
+  articleImageLink: 'http://www.trbimg.com/img-5ae87773/turbine/ct-1525184368-4e6xw49l90-snap-image',
+  articleImageAlt: 'Wayne Coyne',
+  articleImageTitle: 'Wayne Coyne' }
+loopCounter 4
 inside of .each
 inside of .each
 inside of .each
@@ -46,14 +46,3019 @@ inside of .each
 inside of .each
 inside of .each
 inside of .each
-[0mGET /scrape [36m304 [0m1890.366 ms - -[0m
-inside article find
-undefined
-inside article =[]
-{ title: '              U.S. says crossing is full before caravan tries to seek asylum',
-  summary: 'A group of Central Americans who journeyed to the U.S. border in a caravan resolved to turn themselves in and ask for asylum Sunday — only to have U.S. immigration officials announce that the San Diego crossing was already at capacity and wouldn\'t immediately be accepting them.',
-  section: 'Nation & WorldNation & WorldBreaking NewsNation & WorldChicago BearsBreaking NewsBreaking NewsBreaking NewsMoviesChicago BearsParentingDream HomesMovies',
-  articleLink: 'http://www.chicagotribune.com/news/nationworld/#nt=oft02a-1la1',
-  articleImageLink: 'http://www.trbimg.com/img-5ae64431/turbine/ct-central-american-migrants-seek-asylum-20180429',
-  articleImageAlt: 'Central American migrants seek asylum',
-  articleImageTitle: 'Central American migrants seek asylum' }
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+inside of .each
+.each counter 0
+in li.trb_outfit loop
+Mayors ask Wisconsin refinery to end use of dangerous chemical
+loopCounter 5
+.each counter 1
+in li.trb_outfit loop
+Lincoln Park home with outdoor space: $3.9M
+loopCounter 6
+.each counter 2
+in li.trb_outfit loop
+Millennium Park free summer concerts
+loopCounter 7
+.each counter 3
+in li.trb_outfit loop
+With draft complete, what does Bears depth chart look like?
+loopCounter 8
+.each counter 4
+in li.trb_outfit loop
+The best lunches in Chicago
+loopCounter 9
+.each counter 5
+in li.trb_outfit loop
+Why can't Joe Maddon let Cubs lose a game before messing with the lineup?
+loopCounter 10
+.each counter 6
+in li.trb_outfit loop
+The Trump/Mueller interview: a transcript from the future
+loopCounter 11
+.each counter 7
+in li.trb_outfit loop
+Shortage of refs in youth sports blamed on abuse by parents, coaches
+loopCounter 12
+.each counter 8
+in li.trb_outfit loop
+Facebook CEO Mark Zuckerberg sends $14 million to CPS for 'personalized learning'
+loopCounter 13
+.each counter 9
+in li.trb_outfit loop
+Why fire one congressional chaplain when we can fire them all?
+loopCounter 14
+.each counter 10
+in li.trb_outfit loop
+Stage Left Theatre has a real history in Chicago — now future is in doubt
+loopCounter 15
+.each counter 11
+in li.trb_outfit loop
+Kerry Wood and ‘the greatest game ever pitched’: The oral history of May 6, 1998 at Wrigley Field
+loopCounter 16
+.each counter 12
+in li.trb_outfit loop
+United bans nearly 50 breeds of dogs and cats after series of animal-related incidents
+loopCounter 17
+.each counter 13
+in li.trb_outfit loop
+Bears Q&A: Is there enough depth at outside linebacker? Why move James Daniels to guard?
+loopCounter 18
+.each counter 14
+in li.trb_outfit loop
+What Paul Vallas brings to the race for mayor
+loopCounter 19
+.each counter 15
+in li.trb_outfit loop
+He needed to make amends for bullying. What about the rest of us?
+loopCounter 20
+.each counter 16
+in li.trb_outfit loop
+Why Trump should grant clemency to Rod Blagojevich
+loopCounter 21
+.each counter 17
+in li.trb_outfit loop
+An Illinois mass killer walks free
+loopCounter 22
+.each counter 18
+in li.trb_outfit loop
+Is versatile James Daniels ready for leap from Iowa to the Bears and from center to guard?
+loopCounter 23
+.each counter 19
+in li.trb_outfit loop
+Kyle Hendricks feels squeezed in Cubs' 3-1 loss to Rockies
+loopCounter 24
+.each counter 20
+in li.trb_outfit loop
+Cubs offense fizzles after Anthony Rizzo's leadoff homer as 5-game win streak ends
+loopCounter 25
+.each counter 21
+in li.trb_outfit loop
+Cardinals score 2 in 9th as White Sox blow fine outing from James Shields in 3-2 loss
+loopCounter 26
+.each counter 22
+in li.trb_outfit loop
+Why cities like Dayton and Sarasota are fueling Grubhub's growth
+loopCounter 27
+.each counter 23
+in li.trb_outfit loop
+Cook County selling nearly 3,200 vacant lots to encourage redevelopment
+loopCounter 28
+.each counter 24
+in li.trb_outfit loop
+Bank to give $1,053 to babies born at Chicago hospitals Thursday
+loopCounter 29
+.each counter 25
+in li.trb_outfit loop
+What the T-Mobile and Sprint merger means for you
+loopCounter 30
+.each counter 26
+in li.trb_outfit loop
+10 movies to see in Chicago this summer
+loopCounter 31
+.each counter 27
+in li.trb_outfit loop
+A selective guide to U.S. summer classical music festivals
+loopCounter 32
+.each counter 28
+in li.trb_outfit loop
+Beautiful 'Once' at the Paramount, from artists who know this musical's heart
+loopCounter 33
+.each counter 29
+in li.trb_outfit loop
+Delmark Records founder sells label to Chicago musicians Julia A. Miller and Elbio Barilari
+loopCounter 34
+.each counter 30
+in li.trb_outfit loop
+Diseases spread by ticks, mosquitoes and fleas more than tripled in the U.S.
+loopCounter 35
+.each counter 31
+in li.trb_outfit loop
+Mom wonders how to react to daughter's estrangement
+loopCounter 36
+.each counter 32
+in li.trb_outfit loop
+Chicago women's breast imprints part of River North art exhibit
+loopCounter 37
+.each counter 33
+in li.trb_outfit loop
+On college acceptance day, 7 parenting tips for managing disappointment
+loopCounter 38
+.each counter 34
+in li.trb_outfit loop
+German coworking firm plans 100,000-square-foot Mag Mile flagship
+loopCounter 39
+.each counter 35
+in li.trb_outfit loop
+7 striking facts about the money tech companies are making
+loopCounter 40
+.each counter 36
+in li.trb_outfit loop
+How to identify a toxic work environment before accepting a job
+loopCounter 41
+.each counter 37
+in li.trb_outfit loop
+Fulton Market's Randolph Street could see new people spaces in archaic service drives
+loopCounter 42
+.each counter 38
+in li.trb_outfit loop
+Do you really have to pay 'suggested donations' at festivals?
+loopCounter 43
+.each counter 39
+in li.trb_outfit loop
+Cinco de Mayo parade canceled amid dispute between alderman, community group
+loopCounter 44
+.each counter 40
+in li.trb_outfit loop
+Detenidas unas 20 personas en San Juan por incidentes el Primero de Mayo
+loopCounter 45
+.each counter 41
+in li.trb_outfit loop
+'¡Sí se pudo!', grita caravana migrante tras primeros ingresos a EEUU
+loopCounter 46
+.each counter 42
+in li.trb_outfit loop
+Review: 2018 Mitsubishi Outlander PHEV is a great compromise
+loopCounter 47
+.each counter 43
+in li.trb_outfit loop
+Ford and FCA cutting car lines can benefit GM, Toyota and Honda
+loopCounter 48
+.each counter 44
+in li.trb_outfit loop
+Mom wonders how to react to daughter's estrangement
+loopCounter 49
+.each counter 45
+in li.trb_outfit loop
+Bears Q&A: Is there enough depth at outside linebacker? Why move James Daniels to guard?
+loopCounter 50
+.each counter 46
+in li.trb_outfit loop
+Secret Chicago: 40 hidden gems, from cafes to swimming pools
+loopCounter 51
+.each counter 47
+in li.trb_outfit loop
+EPA chief Pruitt overrules staff, gives Wisconsin's Walker, Foxconn big break on smog
+loopCounter 52
+.each counter 48
+in li.trb_outfit loop
+The Trump/Mueller interview: a transcript from the future
+loopCounter 53
+.each counter 49
+in li.trb_outfit loop
+Why can't Joe Maddon let the Cubs lose a game before messing with the lineup?
+loopCounter 54
+.each counter 50
+in li.trb_outfit loop
+Are we in for another round of 'dirty rain'? Wind, rain, dry conditions contribute to tricky weather
+loopCounter 55
+.each counter 51
+in li.trb_outfit loop
+Want the next hot houseplant? Better get to the garden center fast.
+loopCounter 56
+.each counter 52
+in li.trb_outfit loop
+With girls joining the ranks, Boy Scouts plan a name change
+loopCounter 57
+.each counter 53
+in li.trb_outfit loop
+On first day, Chicago issues 500 municipal ID cards, officials say
+loopCounter 58
+.each counter 54
+in li.trb_outfit loop
+Cook County selling nearly 3,200 vacant lots to encourage redevelopment
+loopCounter 59
+.each counter 55
+in li.trb_outfit loop
+United bans nearly 50 breeds of dogs and cats after series of animal-related incidents
+loopCounter 60
+.each counter 56
+in li.trb_outfit loop
+Flaming Lips, Black Star (yes, them), Brandi Carlile headline an action-packed Taste of Chicago music lineup
+loopCounter 61
+.each counter 57
+in li.trb_outfit loop
+Bears' offensive line plan seems pretty smart
+loopCounter 62
+.each counter 58
+in li.trb_outfit loop
+Russ Brandon, president of Bills and Sabres, resigns after alleged inappropriate relationship with female employee
+loopCounter 63
+.each counter 59
+in li.trb_outfit loop
+Iowa lawmakers approve the most restrictive U.S. abortion law
+loopCounter 64
+.each counter 60
+in li.trb_outfit loop
+Morning Spin: Berrios faces $127,000 more in fines over campaign contributions
+loopCounter 65
+.each counter 61
+in li.trb_outfit loop
+I study liars. I've never seen one like Donald Trump.
+loopCounter 66
+.each counter 62
+in li.trb_outfit loop
+Girl, 4, shot while sitting on porch with parents: 'It's our children, our babies'
+loopCounter 67
+.each counter 63
+in li.trb_outfit loop
+District 113 exodus symptom of climate crisis, Deerfield and Highland Park teachers say
+loopCounter 68
+.each counter 64
+in li.trb_outfit loop
+Kyle Hendricks feels squeezed in Cubs' 3-1 loss to Rockies
+loopCounter 69
+.each counter 65
+in li.trb_outfit loop
+Is versatile James Daniels ready for leap from Iowa to the Bears and from center to guard?
+loopCounter 70
+.each counter 66
+in li.trb_outfit loop
+Carlos Boozer says Bulls 'broke us up too soon'
+loopCounter 71
+.each counter 67
+in li.trb_outfit loop
+Woman's body pulled from water at Montrose Harbor
+loopCounter 72
+.each counter 68
+in li.trb_outfit loop
+Bill Gates believed to have bought Hyde Park mansion
+loopCounter 73
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: summary: Path `summary` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { summary: 
+      { ValidatorError: Path `summary` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `summary` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'summary',
+        value: '',
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: articleImageLink: Path `articleImageLink` is required., articleImageAlt: Path `articleImageAlt` is required., articleImageTitle: Path `articleImageTitle` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { articleImageLink: 
+      { ValidatorError: Path `articleImageLink` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `articleImageLink` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'articleImageLink',
+        value: undefined,
+        reason: undefined,
+        '$isValidatorError': true },
+     articleImageAlt: 
+      { ValidatorError: Path `articleImageAlt` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `articleImageAlt` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'articleImageAlt',
+        value: undefined,
+        reason: undefined,
+        '$isValidatorError': true },
+     articleImageTitle: 
+      { ValidatorError: Path `articleImageTitle` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `articleImageTitle` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'articleImageTitle',
+        value: undefined,
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in .each create catch
+{ ValidationError: Article validation failed: articleImageLink: Path `articleImageLink` is required., articleImageAlt: Path `articleImageAlt` is required., articleImageTitle: Path `articleImageTitle` is required.
+    at ValidationError.inspect (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validation.js:56:24)
+    at formatValue (util.js:430:38)
+    at inspect (util.js:324:10)
+    at format (util.js:191:12)
+    at Console.log (console.js:130:21)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\server.js:183:19
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+  errors: 
+   { articleImageLink: 
+      { ValidatorError: Path `articleImageLink` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `articleImageLink` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'articleImageLink',
+        value: undefined,
+        reason: undefined,
+        '$isValidatorError': true },
+     articleImageAlt: 
+      { ValidatorError: Path `articleImageAlt` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `articleImageAlt` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'articleImageAlt',
+        value: undefined,
+        reason: undefined,
+        '$isValidatorError': true },
+     articleImageTitle: 
+      { ValidatorError: Path `articleImageTitle` is required.
+    at new ValidatorError (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\error\validator.js:25:11)
+    at validate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:805:13)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:854:11
+    at Array.forEach (<anonymous>)
+    at SchemaString.SchemaType.doValidate (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\schematype.js:814:19)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongoose\lib\document.js:1628:9
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+        message: 'Path `articleImageTitle` is required.',
+        name: 'ValidatorError',
+        properties: [Object],
+        kind: 'required',
+        path: 'articleImageTitle',
+        value: undefined,
+        reason: undefined,
+        '$isValidatorError': true } },
+  _message: 'Article validation failed',
+  name: 'ValidationError' }
+in create .catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              EPA chief Pruitt overrules agency staff, gives Wisconsin's Walker, Foxconn big break on smog" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              EPA chief Pruitt overrules agency staff, gives Wisconsin\'s Walker, Foxconn big break on smog" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              EPA chief Pruitt overrules agency staff, gives Wisconsin\'s Walker, Foxconn big break on smog" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in create .catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              Are we in for another round of 'dirty rain'? Wind, rain, dry conditions contribute to tricky weather" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              Are we in for another round of \'dirty rain\'? Wind, rain, dry conditions contribute to tricky weather" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              Are we in for another round of \'dirty rain\'? Wind, rain, dry conditions contribute to tricky weather" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in create .catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              Secret Chicago: 40 hidden gems, from cafes to swimming pools" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              Secret Chicago: 40 hidden gems, from cafes to swimming pools" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              Secret Chicago: 40 hidden gems, from cafes to swimming pools" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in create .catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              Flaming Lips, Black Star (yes, them), Brandi Carlile headline an action-packed Taste of Chicago music lineup" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              Flaming Lips, Black Star (yes, them), Brandi Carlile headline an action-packed Taste of Chicago music lineup" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "              Flaming Lips, Black Star (yes, them), Brandi Carlile headline an action-packed Taste of Chicago music lineup" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "What Paul Vallas brings to the race for mayor" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "What Paul Vallas brings to the race for mayor" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "What Paul Vallas brings to the race for mayor" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "He needed to make amends for bullying. What about the rest of us?" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "He needed to make amends for bullying. What about the rest of us?" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "He needed to make amends for bullying. What about the rest of us?" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "An Illinois mass killer walks free" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "An Illinois mass killer walks free" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "An Illinois mass killer walks free" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Why Trump should grant clemency to Rod Blagojevich" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Why Trump should grant clemency to Rod Blagojevich" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Why Trump should grant clemency to Rod Blagojevich" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Is versatile James Daniels ready for leap from Iowa to the Bears and from center to guard?" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Is versatile James Daniels ready for leap from Iowa to the Bears and from center to guard?" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Is versatile James Daniels ready for leap from Iowa to the Bears and from center to guard?" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cook County selling nearly 3,200 vacant lots to encourage redevelopment" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cook County selling nearly 3,200 vacant lots to encourage redevelopment" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cook County selling nearly 3,200 vacant lots to encourage redevelopment" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cubs offense fizzles after Anthony Rizzo's leadoff homer as 5-game win streak ends" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cubs offense fizzles after Anthony Rizzo\'s leadoff homer as 5-game win streak ends" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cubs offense fizzles after Anthony Rizzo\'s leadoff homer as 5-game win streak ends" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "10 movies to see in Chicago this summer" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "10 movies to see in Chicago this summer" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "10 movies to see in Chicago this summer" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cardinals score 2 in 9th as White Sox blow fine outing from James Shields in 3-2 loss" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cardinals score 2 in 9th as White Sox blow fine outing from James Shields in 3-2 loss" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cardinals score 2 in 9th as White Sox blow fine outing from James Shields in 3-2 loss" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bank to give $1,053 to babies born at Chicago hospitals Thursday" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bank to give $1,053 to babies born at Chicago hospitals Thursday" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bank to give $1,053 to babies born at Chicago hospitals Thursday" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Why cities like Dayton and Sarasota are fueling Grubhub's growth" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Why cities like Dayton and Sarasota are fueling Grubhub\'s growth" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Why cities like Dayton and Sarasota are fueling Grubhub\'s growth" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "A selective guide to U.S. summer classical music festivals" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "A selective guide to U.S. summer classical music festivals" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "A selective guide to U.S. summer classical music festivals" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Chicago women's breast imprints part of River North art exhibit" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Chicago women\'s breast imprints part of River North art exhibit" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Chicago women\'s breast imprints part of River North art exhibit" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Delmark Records founder sells label to Chicago musicians Julia A. Miller and Elbio Barilari" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Delmark Records founder sells label to Chicago musicians Julia A. Miller and Elbio Barilari" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Delmark Records founder sells label to Chicago musicians Julia A. Miller and Elbio Barilari" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "German coworking firm plans 100,000-square-foot Mag Mile flagship" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "German coworking firm plans 100,000-square-foot Mag Mile flagship" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "German coworking firm plans 100,000-square-foot Mag Mile flagship" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cinco de Mayo parade canceled amid dispute between alderman, community group" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cinco de Mayo parade canceled amid dispute between alderman, community group" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cinco de Mayo parade canceled amid dispute between alderman, community group" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Fulton Market's Randolph Street could see new people spaces in archaic service drives" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Fulton Market\'s Randolph Street could see new people spaces in archaic service drives" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Fulton Market\'s Randolph Street could see new people spaces in archaic service drives" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Review: 2018 Mitsubishi Outlander PHEV is a great compromise" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Review: 2018 Mitsubishi Outlander PHEV is a great compromise" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Review: 2018 Mitsubishi Outlander PHEV is a great compromise" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Beautiful 'Once' at the Paramount, from artists who know this musical's heart" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Beautiful \'Once\' at the Paramount, from artists who know this musical\'s heart" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Beautiful \'Once\' at the Paramount, from artists who know this musical\'s heart" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "On college acceptance day, 7 parenting tips for managing disappointment" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "On college acceptance day, 7 parenting tips for managing disappointment" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "On college acceptance day, 7 parenting tips for managing disappointment" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Do you really have to pay 'suggested donations' at festivals?" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Do you really have to pay \'suggested donations\' at festivals?" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Do you really have to pay \'suggested donations\' at festivals?" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Ford and FCA cutting car lines can benefit GM, Toyota and Honda" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Ford and FCA cutting car lines can benefit GM, Toyota and Honda" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Ford and FCA cutting car lines can benefit GM, Toyota and Honda" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Mom wonders how to react to daughter's estrangement" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Mom wonders how to react to daughter\'s estrangement" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Mom wonders how to react to daughter\'s estrangement" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "How to identify a toxic work environment before accepting a job" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "How to identify a toxic work environment before accepting a job" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "How to identify a toxic work environment before accepting a job" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "'¡Sí se pudo!', grita caravana migrante tras primeros ingresos a EEUU" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "\'¡Sí se pudo!\', grita caravana migrante tras primeros ingresos a EEUU" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "\'¡Sí se pudo!\', grita caravana migrante tras primeros ingresos a EEUU" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Secret Chicago: 40 hidden gems, from cafes to swimming pools" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Secret Chicago: 40 hidden gems, from cafes to swimming pools" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Secret Chicago: 40 hidden gems, from cafes to swimming pools" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Want the next hot houseplant? Better get to the garden center fast." }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Want the next hot houseplant? Better get to the garden center fast." }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Want the next hot houseplant? Better get to the garden center fast." }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "The Trump/Mueller interview: a transcript from the future" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "The Trump/Mueller interview: a transcript from the future" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "The Trump/Mueller interview: a transcript from the future" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "On first day, Chicago issues 500 municipal ID cards, officials say" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "On first day, Chicago issues 500 municipal ID cards, officials say" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "On first day, Chicago issues 500 municipal ID cards, officials say" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Russ Brandon, president of Bills and Sabres, resigns after alleged inappropriate relationship with female employee" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Russ Brandon, president of Bills and Sabres, resigns after alleged inappropriate relationship with female employee" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Russ Brandon, president of Bills and Sabres, resigns after alleged inappropriate relationship with female employee" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Kyle Hendricks feels squeezed in Cubs' 3-1 loss to Rockies" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Kyle Hendricks feels squeezed in Cubs\' 3-1 loss to Rockies" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Kyle Hendricks feels squeezed in Cubs\' 3-1 loss to Rockies" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Flaming Lips, Black Star (yes, them), Brandi Carlile headline an action-packed Taste of Chicago music lineup" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Flaming Lips, Black Star (yes, them), Brandi Carlile headline an action-packed Taste of Chicago music lineup" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Flaming Lips, Black Star (yes, them), Brandi Carlile headline an action-packed Taste of Chicago music lineup" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Girl, 4, shot while sitting on porch with parents: 'It's our children, our babies'" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Girl, 4, shot while sitting on porch with parents: \'It\'s our children, our babies\'" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Girl, 4, shot while sitting on porch with parents: \'It\'s our children, our babies\'" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bill Gates believed to have bought Hyde Park mansion" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bill Gates believed to have bought Hyde Park mansion" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bill Gates believed to have bought Hyde Park mansion" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Kyle Hendricks feels squeezed in Cubs' 3-1 loss to Rockies" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Kyle Hendricks feels squeezed in Cubs\' 3-1 loss to Rockies" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Kyle Hendricks feels squeezed in Cubs\' 3-1 loss to Rockies" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "What the T-Mobile and Sprint merger means for you" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "What the T-Mobile and Sprint merger means for you" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "What the T-Mobile and Sprint merger means for you" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Diseases spread by ticks, mosquitoes and fleas more than tripled in the U.S." }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Diseases spread by ticks, mosquitoes and fleas more than tripled in the U.S." }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Diseases spread by ticks, mosquitoes and fleas more than tripled in the U.S." }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "7 striking facts about the money tech companies are making" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "7 striking facts about the money tech companies are making" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "7 striking facts about the money tech companies are making" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Detenidas unas 20 personas en San Juan por incidentes el Primero de Mayo" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Detenidas unas 20 personas en San Juan por incidentes el Primero de Mayo" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Detenidas unas 20 personas en San Juan por incidentes el Primero de Mayo" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bears Q&A: Is there enough depth at outside linebacker? Why move James Daniels to guard?" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bears Q&A: Is there enough depth at outside linebacker? Why move James Daniels to guard?" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bears Q&A: Is there enough depth at outside linebacker? Why move James Daniels to guard?" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Are we in for another round of 'dirty rain'? Wind, rain, dry conditions contribute to tricky weather" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Are we in for another round of \'dirty rain\'? Wind, rain, dry conditions contribute to tricky weather" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Are we in for another round of \'dirty rain\'? Wind, rain, dry conditions contribute to tricky weather" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "United bans nearly 50 breeds of dogs and cats after series of animal-related incidents" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "United bans nearly 50 breeds of dogs and cats after series of animal-related incidents" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "United bans nearly 50 breeds of dogs and cats after series of animal-related incidents" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "I study liars. I've never seen one like Donald Trump." }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "I study liars. I\'ve never seen one like Donald Trump." }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "I study liars. I\'ve never seen one like Donald Trump." }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Carlos Boozer says Bulls 'broke us up too soon'" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Carlos Boozer says Bulls \'broke us up too soon\'" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Carlos Boozer says Bulls \'broke us up too soon\'" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Mom wonders how to react to daughter's estrangement" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Mom wonders how to react to daughter\'s estrangement" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Mom wonders how to react to daughter\'s estrangement" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Why can't Joe Maddon let the Cubs lose a game before messing with the lineup?" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Why can\'t Joe Maddon let the Cubs lose a game before messing with the lineup?" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Why can\'t Joe Maddon let the Cubs lose a game before messing with the lineup?" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cook County selling nearly 3,200 vacant lots to encourage redevelopment" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cook County selling nearly 3,200 vacant lots to encourage redevelopment" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Cook County selling nearly 3,200 vacant lots to encourage redevelopment" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Morning Spin: Berrios faces $127,000 more in fines over campaign contributions" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Morning Spin: Berrios faces $127,000 more in fines over campaign contributions" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Morning Spin: Berrios faces $127,000 more in fines over campaign contributions" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Is versatile James Daniels ready for leap from Iowa to the Bears and from center to guard?" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Is versatile James Daniels ready for leap from Iowa to the Bears and from center to guard?" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Is versatile James Daniels ready for leap from Iowa to the Bears and from center to guard?" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "EPA chief Pruitt overrules staff, gives Wisconsin's Walker, Foxconn big break on smog" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "EPA chief Pruitt overrules staff, gives Wisconsin\'s Walker, Foxconn big break on smog" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "EPA chief Pruitt overrules staff, gives Wisconsin\'s Walker, Foxconn big break on smog" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "With girls joining the ranks, Boy Scouts plan a name change" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "With girls joining the ranks, Boy Scouts plan a name change" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "With girls joining the ranks, Boy Scouts plan a name change" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bears' offensive line plan seems pretty smart" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bears\' offensive line plan seems pretty smart" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "Bears\' offensive line plan seems pretty smart" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }
+in .each create catch
+{ BulkWriteError: E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "District 113 exodus symptom of climate crisis, Deerfield and Highland Park teachers say" }
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:530:15
+    at handleCallback (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\utils.js:128:55)
+    at resultHandler (C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb\lib\bulk\unordered.js:451:5)
+    at C:\Users\marting\Documents\uOfMinnesotaBootCampHomeworks\web-scraper\node_modules\mongodb-core\lib\connection\pool.js:544:18
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  name: 'BulkWriteError',
+  message: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "District 113 exodus symptom of climate crisis, Deerfield and Highland Park teachers say" }',
+  driver: true,
+  code: 11000,
+  index: 0,
+  errmsg: 'E11000 duplicate key error collection: web-scraper.articles index: title_1 dup key: { : "District 113 exodus symptom of climate crisis, Deerfield and Highland Park teachers say" }',
+  getOperation: [Function],
+  toJSON: [Function],
+  toString: [Function],
+  result: 
+   BulkWriteResult {
+     ok: [Getter],
+     nInserted: [Getter],
+     nUpserted: [Getter],
+     nMatched: [Getter],
+     nModified: [Getter],
+     nRemoved: [Getter],
+     getInsertedIds: [Function],
+     getUpsertedIds: [Function],
+     getUpsertedIdAt: [Function],
+     getRawResponse: [Function],
+     hasWriteErrors: [Function],
+     getWriteErrorCount: [Function],
+     getWriteErrorAt: [Function],
+     getWriteErrors: [Function],
+     getLastOp: [Function],
+     getWriteConcernError: [Function],
+     toJSON: [Function],
+     toString: [Function],
+     isOk: [Function] } }

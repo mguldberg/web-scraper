@@ -31,12 +31,13 @@ app.use(express.static("public"));
 app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
-// // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
-// var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/web-scraper";
+// If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/web-scraper";
 
-// // Connect to the Mongo DB
-// mongoose.connect(MONGODB_URI);
-mongoose.connect("mongodb://localhost/web-scraper");
+// Set mongoose to leverage built in JavaScript ES6 Promises
+// Connect to the Mongo DB
+mongoose.Promise = Promise;
+mongoose.connect(MONGODB_URI);
 
 // Routes
 app.get("/", function (req, res) {
@@ -60,129 +61,157 @@ app.get("/", function (req, res) {
 
 });
 
-// A GET route for scraping the echoJS website
-app.get("/scrape", function (req, res) {
 
+function scrapeFunctions($, countNewRecords, urlToScrape, scrapeRes, cb) {
+
+  //set up loopCounter to check against to see if we are done with the loop
+  let loopCounter = 0;
+
+  // Now, we grab every 'article' within an article tag, and do the following:
+  $("section.trb_outfit_sections").each(function (i, element) {
+    // Save an empty result object
+    var result = {};
+
+    console.log("inside of .each");
+    // Add the text and href of every link, and save them as properties of the result object
+    // result.title = $(this)
+    //   .children(".trb_outfit_primaryItem_article_title")
+    //   .text();
+    result.title = $(this)
+      .find("h2")
+      .text();
+
+    if (result.title != "") {
+      result.summary = $(this)
+        .find(".trb_outfit_primaryItem_article_content")
+        .text();
+      result.section = $(this)
+        .find(".trb_outfit_categorySectionHeading a")
+        .text();
+      result.articleLink = urlToScrape + $(this)
+        .find(".trb_outfit_categorySectionHeading a")
+        .attr("href");
+      result.articleImageLink = $(this)
+        .find("figure img")
+        .attr("data-baseurl");
+      result.articleImageAlt = $(this)
+        .find("figure img")
+        .attr("alt");
+      result.articleImageTitle = $(this)
+        .find("figure img")
+        .attr("title");
+
+      console.log("just before db.Article.find", result)
+
+      loopCounter++;
+      console.log("loopCounter", loopCounter);
+
+      // Create a new Article using the `result` object built from scraping
+      db.Article.create(result)
+        .then(function (dbArticle) {
+          // View the added result in the console
+          // console.log(dbArticle);
+
+          //keep count of records added
+          countNewRecords++;
+          
+          cb($, countNewRecords, scrapeRes);
+
+        })
+        .catch(function (err) {
+          console.log("in create .catch");
+          // If an error occurred, console.log to server.
+          console.log(err);
+        });
+    }
+
+  });
+
+  // Now, we grab every '.trb_outfit_group_list_item' within an article tag, and do the following:
+  $("li.trb_outfit_group_list_item").each(function (i, element) {
+    // Save an empty result object
+    var result = {};
+    console.log(".each counter", i);
+    // Add the text and href of every link, and save them as properties of the result object
+    result.title = $(this)
+      .find("h3")
+      .text();
+
+    console.log("in li.trb_outfit loop");
+    console.log(result.title);
+
+    if (result.title != "") {
+      result.summary = $(this)
+        .find(".trb_outfit_group_list_item_brief")
+        .text();
+      result.section = $(this)
+        .find(".trb_outfit_categorySectionHeading a")
+        .text();
+      result.articleLink = urlToScrape + $(this)
+        .find(".trb_outfit_categorySectionHeading a")
+        .attr("href");
+      result.articleImageLink = $(this)
+        .find("img")
+        .attr("data-baseurl");
+      result.articleImageAlt = $(this)
+        .find("img")
+        .attr("alt");
+      result.articleImageTitle = $(this)
+        .find("img")
+        .attr("title");
+    
+        loopCounter++;
+        console.log("loopCounter", loopCounter);
+      
+      // Create a new Article using the `result` object built from scraping
+      db.Article.create(result)
+        .then(function (dbArticle) {
+          // View the added result in the console
+          // console.log(dbArticle);
+
+          //keep count of records added
+          countNewRecords++;
+
+          console.log("count of new records", countNewRecords);
+
+          cb($, countNewRecords, scrapeRes);
+          
+        })
+        .catch(function (err) {
+          console.log("in .each create catch");
+          // If an error occurred, send it to the client
+          console.log(err)
+
+        });
+    }
+  });
+}
+
+// A GET route for scraping the echoJS website
+app.get("/scrape", function (req, scrapeRes) {
+
+  //keep count of new records
+  let countRecords = 0;
+  
   //load up var or web site to scrape, will also be reused in URLs for image & story link for the scraped article
   var urlToScrape = "http://www.chicagotribune.com";
 
   // First, we grab the body of the html with request
   axios.get(urlToScrape).then(function (response) {
     // Then, we load that into cheerio and save it to $ for a shorthand selector
-    var $ = cheerio.load(response.data);
+    let $ = cheerio.load(response.data);
 
-    //keep count of new records
-    var countNewRecords = 0;
+    console.log("sum of lengths");
+    console.log($("li.trb_outfit_group_list_item").length + $("section.trb_outfit_sections").length);
 
-    // Now, we grab every 'article' within an article tag, and do the following:
-    $("section.trb_outfit_sections").each(function (i, element) {
-      // Save an empty result object
-      var result = {};
-
-      console.log("inside of .each");
-      // Add the text and href of every link, and save them as properties of the result object
-      // result.title = $(this)
-      //   .children(".trb_outfit_primaryItem_article_title")
-      //   .text();
-      result.title = $(this)
-        .find("h2")
-        .text();
-
-      if (result.title != "") {
-        result.summary = $(this)
-          .find(".trb_outfit_primaryItem_article_content")
-          .text();
-        result.section = $(this)
-          .find(".trb_outfit_categorySectionHeading a")
-          .text();
-        result.articleLink = urlToScrape + $(this)
-          .find(".trb_outfit_categorySectionHeading a")
-          .attr("href");
-        result.articleImageLink = $(this)
-          .find("figure img")
-          .attr("data-baseurl");
-        result.articleImageAlt = $(this)
-          .find("figure img")
-          .attr("alt");
-        result.articleImageTitle = $(this)
-          .find("figure img")
-          .attr("title");
-
-        console.log("just before db.Article.find", result)
-
-        // Create a new Article using the `result` object built from scraping
-        db.Article.create(result)
-          .then(function (dbArticle) {
-            // View the added result in the console
-            console.log(dbArticle);
-
-            //keep count of records added
-            countNewRecords++;
-          })
-          .catch(function (err) {
-            console.log("in create .catch");
-            // If an error occurred, console.log to server.
-            console.log(err);
-          });
-      }
-    });
-
-    // Now, we grab every '.trb_outfit_group_list_item' within an article tag, and do the following:
-    $("li.trb_outfit_group_list_item").each(function (i, element) {
-      // Save an empty result object
-      var result = {};
-
-      // Add the text and href of every link, and save them as properties of the result object
-      result.title = $(this)
-        .find("h3")
-        .text();
-
-      console.log("in li.trb_outfit loop");
-      console.log(result.title);
-
-      if (result.title != "") {
-        result.summary = $(this)
-          .find(".trb_outfit_group_list_item_brief")
-          .text();
-        result.section = $(this)
-          .find(".trb_outfit_categorySectionHeading a")
-          .text();
-        result.articleLink = urlToScrape + $(this)
-          .find(".trb_outfit_categorySectionHeading a")
-          .attr("href");
-        result.articleImageLink = $(this)
-          .find("img")
-          .attr("data-baseurl");
-        result.articleImageAlt = $(this)
-          .find("img")
-          .attr("alt");
-        result.articleImageTitle = $(this)
-          .find("img")
-          .attr("title");
-
-
-
-        // Create a new Article using the `result` object built from scraping
-        db.Article.create(result)
-          .then(function (dbArticle) {
-            // View the added result in the console
-            console.log(dbArticle);
-
-            //keep count of records added
-            countNewRecords++;
-          })
-          .catch(function (err) {
-            console.log("in .each create catch");
-            // If an error occurred, send it to the client
-            console.log(err)
-          });
-
+    scrapeFunctions($, countRecords, urlToScrape, scrapeRes, function ($,countNewRecords, loopCounter ){
+      if ($("li.trb_outfit_group_list_item").length + $("section.trb_outfit_sections").length == loopCounter) {
+        console.log("new count total", countNewRecords);
+        // If we were able to successfully scrape and save an Article, send a message to the client
+        return res.send("Scrape Complete. \n" + countNewRecords + " records have been added to the DB.");
 
       }
     });
-    
-    // If we were able to successfully scrape and save an Article, send a message to the client
-    res.send("Scrape Complete. \n"+ countNewRecords+ " records have been added to the DB." );
   });
 });
 
@@ -215,7 +244,7 @@ app.get("/articles/:id", function (req, res) {
     .populate("note")
     .then(function (dbUserNotes) {
       // If any Articles are found, send them to the client with any notes
-      console.log(dbUserNotes)
+      // console.log(dbUserNotes)
       res.json(dbUserNotes);
     })
     .catch(function (err) {
