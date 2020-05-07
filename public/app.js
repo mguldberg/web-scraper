@@ -81,9 +81,22 @@ $(document).on("click", "#savenote", function () {
 
   console.log(thisId);
   // Run a POST request to change the note, using what's entered in the inputs
-  $.ajax({
+
+
+  // With that done
+  wrapped_ajax(thisId).then(function (data) {
+    // Log the response
+    console.log(data);
+
+  });
+
+});
+
+function wrapped_ajax(ajaxIdForAjaxCall) {
+
+  return $.ajax({
     method: "POST",
-    url: "/articles/" + thisId,
+    url: "/articles/" + ajaxIdForAjaxCall,
     data: {
       // Value taken from title input
       title: $("#titleinput").val(),
@@ -91,15 +104,7 @@ $(document).on("click", "#savenote", function () {
       body: $("#bodyinput").val()
     }
   })
-    // With that done
-    .then(function (data) {
-      // Log the response
-      console.log(data);
-
-    });
-
-});
-
+}
 // When you click the delete button
 $(document).on("click", "#delete-btn", function () {
   // Grab the ids associated with the note and article from the delete button
