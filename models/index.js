@@ -3,5 +3,7 @@
 module.exports = {
   Article: require("./Article"),
   Note: require("./Note"),
-  SavedArticle: require("./SavedArticle")
+  SavedArticle: require("./SavedArticle"),
+  IntercompanyPair: require('./IntercompanyPair'),
+  InvoiceAr: require('./InvoiceAr')
 };

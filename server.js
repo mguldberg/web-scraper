@@ -24,6 +24,7 @@ var app = express();
 app.use(logger("dev"));
 // Use body-parser for handling form submissions
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 // Use express.static to serve the public folder as a static directory
 app.use(express.static("public"));
 
@@ -32,7 +33,7 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // If deployed, use the deployed database. Otherwise use the local mongoHeadlines database
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/web-scraper";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/Money_AllocationPlan";
 
 // Set mongoose to leverage built in JavaScript ES6 Promises
 // Connect to the Mongo DB
@@ -67,124 +68,140 @@ function scrapeFunctions($, countNewRecords, urlToScrape, scrapeRes, cb) {
   //set up loopCounter to check against to see if we are done with the loop
   let loopCounter = 0;
 
+
+  //data-click-id = "background"
+
+
   // Now, we grab every 'article' within an article tag, and do the following:
-  $("section.trb_outfit_sections").each(function (i, element) {
+  $("div h3").each(function (i, element) {
     // Save an empty result object
     var result = {};
 
-    console.log("inside of .each");
+    // console.log("inside of .each");
     // Add the text and href of every link, and save them as properties of the result object
     // result.title = $(this)
     //   .children(".trb_outfit_primaryItem_article_title")
     //   .text();
     result.title = $(this)
-      .find("h2")
       .text();
 
-    if (result.title != "") {
-      result.summary = $(this)
-        .find(".trb_outfit_primaryItem_article_content")
-        .text();
-      result.section = $(this)
-        .find(".trb_outfit_categorySectionHeading a")
-        .text();
-      result.articleLink = urlToScrape + $(this)
-        .find(".trb_outfit_categorySectionHeading a")
-        .attr("href");
-      result.articleImageLink = $(this)
-        .find("figure img")
-        .attr("data-baseurl");
-      result.articleImageAlt = $(this)
-        .find("figure img")
-        .attr("alt");
-      result.articleImageTitle = $(this)
-        .find("figure img")
-        .attr("title");
-
-      console.log("just before db.Article.find", result)
-
-      loopCounter++;
-      console.log("loopCounter", loopCounter);
-
-      // Create a new Article using the `result` object built from scraping
-      db.Article.create(result)
-        .then(function (dbArticle) {
-          // View the added result in the console
-          // console.log(dbArticle);
-
-          //keep count of records added
-          countNewRecords++;
-          
-          cb($, countNewRecords, scrapeRes);
-
-        })
-        .catch(function (err) {
-          console.log("in create .catch");
-          // If an error occurred, console.log to server.
-          console.log(err);
-        });
+    // console.log(result.title, "-", loopCounter);
+    var symbolIndx = result.title.indexOf("$");
+    // console.log('symbolIndx',symbolIndx);
+    if (symbolIndx != -1) {
+      var symbol = result.title.substr(symbolIndx + 1, 5)
+      console.log('symbol', symbol);
     }
+    loopCounter++;
+    if (loopCounter >= 20) {
+      return false;
+    }
+    // if (result.title != "") {
+    //   result.summary = $(this)
+    //     .find(".trb_outfit_primaryItem_article_content")
+    //     .text();
+    //   result.section = $(this)
+    //     .find(".trb_outfit_categorySectionHeading a")
+    //     .text();
+    //   result.articleLink = urlToScrape + $(this)
+    //     .find(".trb_outfit_categorySectionHeading a")
+    //     .attr("href");
+    //   result.articleImageLink = $(this)
+    //     .find("figure img")
+    //     .attr("data-baseurl");
+    //   result.articleImageAlt = $(this)
+    //     .find("figure img")
+    //     .attr("alt");
+    //   result.articleImageTitle = $(this)
+    //     .find("figure img")
+    //     .attr("title");
+
+    //   console.log("just before db.Article.find", result)
+
+    //   loopCounter++;
+    //   console.log("loopCounter", loopCounter);
+
+    //   // Create a new Article using the `result` object built from scraping
+    //   db.Article.create(result)
+    //     .then(function (dbArticle) {
+    //       // View the added result in the console
+    //       // console.log(dbArticle);
+
+    //       //keep count of records added
+    //       countNewRecords++;
+
+    //       cb($, countNewRecords, scrapeRes);
+
+    //     })
+    //     .catch(function (err) {
+    //       console.log("in create .catch");
+    //       // If an error occurred, console.log to server.
+    //       console.log(err);
+    //     });
+    // }
 
   });
 
-  // Now, we grab every '.trb_outfit_group_list_item' within an article tag, and do the following:
-  $("li.trb_outfit_group_list_item").each(function (i, element) {
-    // Save an empty result object
-    var result = {};
-    console.log(".each counter", i);
-    // Add the text and href of every link, and save them as properties of the result object
-    result.title = $(this)
-      .find("h3")
-      .text();
+  // // Now, we grab every '.trb_outfit_group_list_item' within an article tag, and do the following:
+  // $("li.trb_outfit_group_list_item").each(function (i, element) {
+  //   // Save an empty result object
+  //   var result = {};
+  //   console.log(".each counter", i);
+  //   // Add the text and href of every link, and save them as properties of the result object
+  //   result.title = $(this)
+  //     .find("h3")
+  //     .text();
 
-    console.log("in li.trb_outfit loop");
-    console.log(result.title);
+  //   console.log("in li.trb_outfit loop");
+  //   console.log(result.title);
 
-    if (result.title != "") {
-      result.summary = $(this)
-        .find(".trb_outfit_group_list_item_brief")
-        .text();
-      result.section = $(this)
-        .find(".trb_outfit_categorySectionHeading a")
-        .text();
-      result.articleLink = urlToScrape + $(this)
-        .find(".trb_outfit_categorySectionHeading a")
-        .attr("href");
-      result.articleImageLink = $(this)
-        .find("img")
-        .attr("data-baseurl");
-      result.articleImageAlt = $(this)
-        .find("img")
-        .attr("alt");
-      result.articleImageTitle = $(this)
-        .find("img")
-        .attr("title");
-    
-        loopCounter++;
-        console.log("loopCounter", loopCounter);
-      
-      // Create a new Article using the `result` object built from scraping
-      db.Article.create(result)
-        .then(function (dbArticle) {
-          // View the added result in the console
-          // console.log(dbArticle);
+  //   if (result.title != "") {
+  //     result.summary = $(this)
+  //       .find(".trb_outfit_group_list_item_brief")
+  //       .text();
+  //     result.section = $(this)
+  //       .find(".trb_outfit_categorySectionHeading a")
+  //       .text();
+  //     result.articleLink = urlToScrape + $(this)
+  //       .find(".trb_outfit_categorySectionHeading a")
+  //       .attr("href");
+  //     result.articleImageLink = $(this)
+  //       .find("img")
+  //       .attr("data-baseurl");
+  //     result.articleImageAlt = $(this)
+  //       .find("img")
+  //       .attr("alt");
+  //     result.articleImageTitle = $(this)
+  //       .find("img")
+  //       .attr("title");
 
-          //keep count of records added
-          countNewRecords++;
+  //       loopCounter++;
+  //       console.log("loopCounter", loopCounter);
 
-          console.log("count of new records", countNewRecords);
+  //     // Create a new Article using the `result` object built from scraping
+  //     db.Article.create(result)
+  //       .then(function (dbArticle) {
+  //         // View the added result in the console
+  //         // console.log(dbArticle);
 
-          cb($, countNewRecords, scrapeRes);
-          
-        })
-        .catch(function (err) {
-          console.log("in .each create catch");
-          // If an error occurred, send it to the client
-          console.log(err)
+  //         //keep count of records added
+  //         countNewRecords++;
 
-        });
-    }
-  });
+  //         console.log("count of new records", countNewRecords);
+
+  //         cb($, countNewRecords, scrapeRes);
+
+  //       })
+  //       .catch(function (err) {
+  //         console.log("in .each create catch");
+  //         // If an error occurred, send it to the client
+  //         console.log(err)
+
+  //       });
+  //   }
+  // });
+
+  res.json("complete")
 }
 
 // A GET route for scraping the echoJS website
@@ -192,9 +209,9 @@ app.get("/scrape", function (req, scrapeRes) {
 
   //keep count of new records
   let countRecords = 0;
-  
+
   //load up var or web site to scrape, will also be reused in URLs for image & story link for the scraped article
-  var urlToScrape = "http://www.chicagotribune.com";
+  var urlToScrape = "http://www.reddit.com/r/wallstreetbets/new/";
 
   // First, we grab the body of the html with request
   axios.get(urlToScrape).then(function (response) {
@@ -204,7 +221,7 @@ app.get("/scrape", function (req, scrapeRes) {
     console.log("sum of lengths");
     console.log($("li.trb_outfit_group_list_item").length + $("section.trb_outfit_sections").length);
 
-    scrapeFunctions($, countRecords, urlToScrape, scrapeRes, function ($,countNewRecords, loopCounter ){
+    scrapeFunctions($, countRecords, urlToScrape, scrapeRes, function ($, countNewRecords, loopCounter) {
       if ($("li.trb_outfit_group_list_item").length + $("section.trb_outfit_sections").length == loopCounter) {
         console.log("new count total", countNewRecords);
         // If we were able to successfully scrape and save an Article, send a message to the client
@@ -263,7 +280,7 @@ app.post("/articles/:id", function (req, res) {
   // save the new note that gets posted to the Notes collection
   // then find an article from the req.params.id
   // and update it's "note" property with the _id of the new note
-  db.Note.create(req.body)
+  db.Note.insertOne(req.body)
     .then(function (dbNote) {
       // If a Note was created successfully, find one User (there's only one) and push the new Note's _id to the User's `notes` array
       // { new: true } tells the query that we want it to return the updated User -- it returns the original by default
@@ -315,3 +332,67 @@ app.delete("/notes/:id", function (req, res) {
     });
 });
 
+//Handle adding a new InvoiceAr and update IntercompanyPair document
+app.post("/invoicear/:id", function (req, res) {
+  console.log('req.body', req.body);
+  console.log('req.params', req.params);
+
+  db.InvoiceAr.create(req.body)
+    .then(function (dbInvoicear) {
+      // -If a InvoiceAr was created successfully, find one IntercompanyPair (there's only one) and push the new 
+      //     InvoiceAr's _id to the InterCompany's `InvoiceAr` array
+      // -{ new: true } tells the query that we want it to return the updated IntercompnayPair -- it returns the original by default
+      // -Since our mongoose query returns a promise, we can chain another `.then` which receives the result of the query
+      console.log("dbInvoicear:", dbInvoicear);
+      console.log("req.params", req.params)
+      return db.IntercompanyPair.findOneAndUpdate({ _id: req.params.id }, { $push: { InvoiceAr: dbInvoicear._id } }, { new: true });
+    })
+    .then(function (dbInterComp) {
+      // If the InterCompanyPair was updated successfully, send it back to the client
+      res.json(dbInterComp);
+    })
+    .catch(function (err) {
+      console.log("in .catch");
+      // If an error occurs, send it back to the client
+      res.json(err);
+    });
+});
+
+//Handle adding a new IntercompanyPair document
+app.post("/intercompanypair/",  function (req, res) {
+  console.log('req.body', req.body);
+  // Create a new IntercompanyPair using the req.body passed in
+  db.IntercompanyPair.create(req.body)
+    .then(function (dbInterComp) {
+      console.log("dbInterComp", dbInterComp);
+      res.json(dbInterComp);
+
+    })
+    .catch(function (err) {
+      console.log("in create catch");
+      // If an error occurred, send it to the client
+      console.log(err)
+      res.json(err);
+
+    });
+});
+
+//Handle getting an IntercompanyPair document and populate the refs InvoiceAr 
+//  docs too in 1 big object
+app.get("/intercompanypair/:id",  function (req, res) {
+  console.log('req.body', req.body);
+
+  // Get a IntercompanyPair with InvoiceAr populated
+  db.IntercompanyPair.findOne({_id: req.params.id})
+    .populate("InvoiceAr")
+    .then(function (dbInterCompPairFull) {
+      console.log("dbInterCompPairFull", dbInterCompPairFull);
+      res.json(dbInterCompPairFull);
+
+    })
+    .catch(function (err) {
+      // If an error occurred, send it to the client
+      console.log(err);
+      res.json(err);
+    });
+});
